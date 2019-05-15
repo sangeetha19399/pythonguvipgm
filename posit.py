@@ -1,7 +1,7 @@
-num=int(input())
-if(num>0):
+number1=int(input())
+if(number1>0):
     print("Positive")
-elif(num<0):
+elif(number1<0):
     print("Negative")
 else:
     print("Zero")
