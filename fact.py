@@ -1,0 +1,9 @@
+num1=int(input())
+fact=1
+counter=1
+while(counter<=num1):
+    fact=fact*counter
+    counter+=1
+print(fact)
+if(num1==1):
+    print(fact)
