@@ -1,8 +1,11 @@
 num1=int(input())
-for counter in range(2,num1):
-    if(num1%counter==0):
-        print("no")
-        break
-else:
+value=num1
+sum=0
+while(num1>0):
+    rev=num1%10
+    sum=sum*10+rev
+    num1=num1//10
+if(value==sum):
     print("yes")
-        
+else:
+    print("no")
