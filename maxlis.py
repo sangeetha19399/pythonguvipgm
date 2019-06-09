@@ -1,3 +1,3 @@
-i=int(input())
-j=list(map(int,input().split()))
-print(max(j))
+number=int(input())
+element=list(map(int,input().split()))
+print(max(element))
